@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Roboto'");
+body{
+    font-family: "Poppins";
+    overflow-x: hidden;
+}
+.first{
+    background-color: #F89B1C;
+    display: flex;
+    justify-content: space-around ;
+    color: white;
+    font-weight: 800;
+    height: 50px;
+    padding-top: 20px;
+}
+ .first p{
+    display: inline;
+}
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 0.5px grey;
+    
+}
+.image{
+    display: flex;
+    flex-grow:0.5 ;
+}
+.cartI{
+    background-color: #A6CE39;
+    position: relative;
+    left: -60px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.home a{
+    border-bottom: 5px solid #A6CE39;
+}
+.third{
+    background-color: #F89B1C ;
+    margin: 50px;
+    border-radius: 4rem;
+    height: 80vh;
+    color: white;
+}
+#food1{
+    float: right;
+    position: relative;
+    right: -50px;
+    bottom: -50px;
+    padding: 85px;
+}
+.eclipse{
+    background-color: #A6CE39;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position:relative;
+    bottom: -240px;
+    right: -550px;
+
+}
+#order, #learn{
+    background-color: #A6CE39;
+    color: white;
+    width: 140px;
+    height: 60px;
+    border: none;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+}
+#meals, #sauces, button{
+    position: relative;
+    bottom: -100px;
+    right: -100px;
+}
+#arrow{
+    position: relative;
+    bottom: -16px;
+    right: -15px;
+}
+.fourth{
+    background-image: url("foodImages/bg1.png");
+    opacity: 0.9;
+    height: 50vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    text-decoration: underline overline 8px #F89B1C;
+    
+}
+.fourth div{
+    opacity: 1;
+    background: transparent;
+    font-family: "Roboto";
+    font-size: 48px;
+}
+.fifth{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+.right{
+    width: 50%;
+    position: relative;
+    left: -6%;
+}
+.left{
+    width: 50%;
+    padding-left: 50px;
+}
+ #one, #two{
+    border: 2px solid #F89B1C;
+    width: 400px;
+    height: 300px;
+    border-radius: 2rem;
+    float: right;
+   
+    
+}
+#one{
+    position: relative;
+    left: -100px;
+   
+   
+ }
+#two{
+    position: relative;
+    top: -42%; 
+    left: -8%;
+   
+    
+}
+#three{
+    background-color: #A6CE39;
+    z-index: -1;
+    height: 50vh;
+    width: 60vw;
+    border-radius: 2rem;
+    position: relative;
+    bottom: -20%;
+    right: -35%;
+}
+#three img{
+    position: relative;
+    top: -675px;
+    height: 60vh;
+    right: -15%;
+    z-index: -1;
+}
+.fifth h1{
+    color: #F89B1C;
+    font-family: "Roboto";
+    font-size: 48px;
+    
+}
+span{
+    border-bottom: 5px solid #A6CE39
+}
+.fifth button{
+    position: relative;
+    left: -1%;
+    bottom: -5%;
+}
+.sixth{
+    background-image: url("foodImages/bg2.png");
+    opacity: 0.9;
+    height: 50vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    text-decoration: underline overline 8px #F89B1C;
+    
+}
+.sixth div{
+    font-family: "Roboto";
+    opacity: 1;
+    background: transparent;
+    font-size: 48px;
+}
+.top{
+    border-bottom: 8px solid #A6CE39;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+}
+.top div{
+    color: white;
+    background-color: #A6CE39;
+    height: 8vh;
+    width: 10vw;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-weight: 800;
+    align-content: center;
+}
+.top h1{
+    color:#F89B1C;
+    font-family: "Roboto";
+    flex-grow: 0.7;
+    font-weight: 700;
+    font-size: 48px;
+    position: relative;
+    bottom: -35px;
+    left: -10px;
+    
+}
+.sea, .meat, .desserts, .sides{
+    position: relative;
+    bottom: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seventh h2{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 52.5px;
+    text-align: center;
+    text-decoration: 5px underline #F89B1C;
+    color: #A6CE39;
+}
+.seaFoodContainer{
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.seaFoodContainer, .chickenFoodContainer h4{
+    color: #A6CE39;
+    text-align: center;
+}
+.seafood1, .seaFood2, .seaFood3, .seafood4, .seaFood5, .seaFood6{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin: 20px;
+    height: 483px;
+    width: 368px;
+}
+.seaFoodContainer p{
+    color: #3E3D3D;
+    font-weight: 300;
+    text-align: center;
+    size: 15px;
+    padding: 2%;
+}
+.seaFoodContainer img{
+    align-self: center;
+}
+.btn{
+    margin-top: 3%;
+    background: #F89B1C;
+    border-radius: 5px;
+    width: 194px;
+    height: 62px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    color: white;
+    border: none;
+    position: relative;
+    top: -1px;
+}
+#f6{
+    position: relative;
+    bottom: -0.5px;
+    margin-top: 9%;
+}
+#f1, #f2,#f3{
+    position: relative;
+    left: -0.5px;
+}
+#f2, #f1{
+    margin-top: 10%;
+}
+#f1{
+    margin-top: 15%;
+}
+#fs1, #fs2, #fs3{
+    position: relative;
+    left: -1px;
+}
+#fs3{
+    margin-top: 11%;
+}
+#fs4, #fs5, #fs6{
+    position: relative;
+    left: -1%;
+    margin-top: 9%;
+}
+#fs5{
+    margin-top: 13%;
+}
+#fs6{
+    margin-top:20%;
+}
+/* .seaFoodContainer button{
+    color: white;
+    background-color: #F89B1C;
+    position: relative;
+    bottom: -3px;
+    left: -10px;
+    border-radius: 5px;
+    align-self: center;
+} */
+.seaFoodContainer2{
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.seaFoodContainer2 p{
+    color: #3E3D3D;
+    font-weight: 300;
+    text-align: center;
+    size: 15px;
+    padding: 2%;
+}
+/* .seaFoodContainer2 button{
+    color: white;
+    background-color: #F89B1C;
+    position: relative;
+    bottom: -3px;
+    border-radius: 5px;
+    align-self: center;
+} */
+/* .seafood4 button{
+    color: white;
+    background-color: #F89B1C;
+    border-radius: 5px;
+    position: relative;
+    top: -0px;
+    left: -2px;
+}
+.seaFood5 button{
+    color: white;
+    background-color: #F89B1C;
+    border-radius: 5px;
+    position: relative;
+    bottom: 0.0px;
+    left: -2px;
+} */
+.seaFoodContainer2, .chickenFoodContainer2 h4{
+    color: #A6CE39;
+    text-align: center;
+}
+.chickenFoodContainer, .chickenFoodContainer2{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.chickenfood1, .chickenfood2, .chickenfood3, .chickenfood4, .chickenfood5, .chickenfood6{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin: 20px;
+    height: 483px;
+    width: 368px;
+}
+.chickenFoodContainer, .chickenFoodContainer2 p{
+    color: #3E3D3D;
+    font-weight: 300;
+    text-align: center;
+    size: 15px;
+    padding: 2%;
+}
+.eighth{
+    background-image: url("foodImages/Contactframe.png");
+    opacity: 0.9;
+    height: 50vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    text-decoration: underline overline 8px #F89B1C;
+    
+}
+.eighth div{
+    opacity: 1;
+    background: transparent;
+    font-family: "Roboto";
+    font-size: 48px;
+}
+.last{
+    margin: 25%;
+    margin-top: 5%;
+}
+.last h1{
+    font-family: "Roboto";
+    font-size: 48px;
+    text-align: center;
+    color: #A6CE39;
+    text-decoration: underline solid 5px #F89B1C;
+}
+#name{
+    width: 684px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 1px solid #E24429;;
+   box-sizing: border-box;
+   box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+}
+#email{
+    width: 684px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+#yemail{
+    font-family: OpenSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    width: 144px;
+    height: 24px;
+    color: #C4C4C4;
+}
+#yname{
+    width: 113px;
+    height: 24px;
+    font-family: OpenSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #E24429;
+}
+input::placeholder{
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #666666;
+    width: 99px;
+    height: 24px;
+}
